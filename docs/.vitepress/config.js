@@ -1,13 +1,15 @@
 export default {
-    title: 'VitePress',
+    title: 'Note',
     themeConfig: {
       nav: [
+        { text: '首页', link: '/' },
         { text: 'JavaScript', link: '/JavaScript/01_书写方式和注意事项.md', activeMatch: '/JavaScript/' },
         { text: 'Node', link: '/Node/内置对象/01_path模块', activeMatch: '/Node/' },
+        { text: '扩展', link: '/Expand/浏览器工作原理', activeMatch: '/Expand/' },
       ],
       socialLinks: [
         { icon: 'twitter', link: '...' },
-        { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+        { icon: 'github', link: 'https://github.com/sanzixiumu' },
         // You can also add custom icons by passing SVG as string:
         // {
         //   icon: {
@@ -58,6 +60,10 @@ export default {
             items: [
               { text: 'path', link: '/Node/内置对象/01_path模块' },
               { text: 'file system', link: '/Node/内置对象/02_fs模块' },
+              { text: 'events', link: '/Node/内置对象/03_events模块' },
+              { text: 'Buffer', link: '/Node/内置对象/04_Buffer' },
+              { text: 'Stream', link: '/Node/内置对象/05_Stream' },
+              { text: 'http', link: '/Node/内置对象/06_http' },
             ]
           }
         ]
