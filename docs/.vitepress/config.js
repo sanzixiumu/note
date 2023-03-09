@@ -4,6 +4,7 @@ export default {
     nav: [
       { text: '首页', link: '/' },
       { text: 'HTML', link: '/HTML/01_初识标签', activeMatch: '/HTML/' },
+      { text: 'CSS', link: '/CSS/01_初识css', activeMatch: '/CSS/' },
       {
         text: 'JavaScript',
         link: '/JavaScript/01_书写方式和注意事项.md',
@@ -30,6 +31,15 @@ export default {
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
+      '/CSS/': [
+        {
+          text: '基础',
+          items: [
+            { text: '初识css', link: '/CSS/01_初识css.md' },
+            { text: '选择器', link: '/CSS/02_选择器.md' },
+          ],
+        },
+      ],
       '/JavaScript/': [
         {
           text: '基础',
