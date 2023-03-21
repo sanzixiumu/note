@@ -11,6 +11,11 @@ export default {
         activeMatch: '/JavaScript/',
       },
       {
+        text: 'TypeScript',
+        link: '/TypeScript/01_什么是TypeScript.md',
+        activeMatch: '/TypeScript/',
+      },
+      {
         text: 'Node',
         link: '/Node/内置对象/01_path模块',
         activeMatch: '/Node/',
@@ -31,6 +36,25 @@ export default {
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
+      '/HTML/': [
+        {
+          text: 'HTML核心',
+          items: [
+            { text: 'HTML', link: '/HTML/01_初识标签' },
+            { text: '文本元素', link: '/HTML/02_文本元素' },
+            { text: '超链接', link: '/HTML/03_超链接' },
+            { text: '图片元素', link: '/HTML/04_图片元素' },
+            { text: '列表元素', link: '/HTML/06_列表元素' },
+          ],
+        },
+        {
+          text: 'HTML5新增',
+          items: [
+            { text: '容器元素', link: '/HTML/07_容器元素' },
+            { text: '多媒体元素', link: '/HTML/05_多媒体元素' },
+          ],
+        },
+      ],
       '/CSS/': [
         {
           text: '基础',
@@ -73,7 +97,19 @@ export default {
           ],
         },
       ],
-
+      '/TypeScript/': [
+        {
+          text: '基本语法',
+          items: [
+            { text: '什么是TypeScript', link: '/TypeScript/01_什么是TypeScript' },
+            { text: '基本数据类型', link: '/TypeScript/02_基本数据类型' },
+            { text: 'any&unknown', link: '/TypeScript/03_any&unknown' },
+            { text: 'void&never', link: '/TypeScript/04_void&nerver' },
+            { text: 'object&Object', link: '/TypeScript/05_object&Object' },
+            { text: '数组', link: '/TypeScript/06_数组' },
+          ],
+        },
+      ],
       // This sidebar gets displayed when a user
       // is on `config` directory.
       '/Node/': [
@@ -86,21 +122,6 @@ export default {
             { text: 'Buffer', link: '/Node/内置对象/04_Buffer' },
             { text: 'Stream', link: '/Node/内置对象/05_Stream' },
             { text: 'http', link: '/Node/内置对象/06_http' },
-          ],
-        },
-      ],
-      '/HTML/': [
-        {
-          text: 'HTML核心',
-          items: [
-            { text: 'HTML', link: '/HTML/01_初识标签' },
-            { text: '文本元素', link: '/HTML/02_文本元素' },
-            { text: '超链接', link: '/HTML/03_超链接' },
-            { text: '图片元素', link: '/HTML/04_图片元素' },
-            { text: '多媒体元素', link: '/HTML/05_多媒体元素' },
-            { text: '列表元素', link: '/HTML/06_列表元素' },
-            { text: '容器元素', link: '/HTML/07_容器元素' },
-            { text: '包含关系', link: '/HTML/08_包含关系' },
           ],
         },
       ],
