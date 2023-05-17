@@ -131,6 +131,19 @@ export default {
           ],
         },
       ],
+      // '/Expand/': [
+      //   {
+      //     text: '扩展',
+      //     items: [
+      //       { text: 'path', link: '/Node/内置对象/01_path模块' },
+      //       { text: 'file system', link: '/Node/内置对象/02_fs模块' },
+      //       { text: 'events', link: '/Node/内置对象/03_events模块' },
+      //       { text: 'Buffer', link: '/Node/内置对象/04_Buffer' },
+      //       { text: 'Stream', link: '/Node/内置对象/05_Stream' },
+      //       { text: 'http', link: '/Node/内置对象/06_http' },
+      //     ],
+      //   },
+      // ]
     },
   },
 };
